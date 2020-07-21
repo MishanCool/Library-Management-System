@@ -52,8 +52,8 @@ public class LibrarySystem extends JFrame implements ActionListener{
     }
     
     public void actionPerformed(ActionEvent ae){
-                new Login_user().setVisible(true);
-                this.setVisible(false);
+        new Login_user().setVisible(true);
+        this.setVisible(false);
                 
     }
     

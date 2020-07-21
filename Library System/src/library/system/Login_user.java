@@ -117,6 +117,20 @@ public class Login_user extends JFrame implements ActionListener {
                     e2.printStackTrace();
             }
         }
+        
+        if(ae.getSource() == b2){
+            setVisible(false);
+            Signup su = new Signup();
+            su.setVisible(true);
+        }   
+        if(ae.getSource() == b3){
+            setVisible(false);
+            Forgot forgot = new Forgot();
+            forgot.setVisible(true);
+        }
     }
     
+    public static void main(String[] args) {
+        new Login_user().setVisible(true);
+    }
 }
