@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package library.system;
 
 /**
@@ -109,7 +104,7 @@ public class Login_user extends JFrame implements ActionListener {
                 
                 if (rs.next()) {
                     this.setVisible(false);
-//                    new Loading().setVisible(true);
+                    new Loading().setVisible(true);
                 } else {
                     JOptionPane.showMessageDialog(null, "Invalid Login...!.");
                 }
