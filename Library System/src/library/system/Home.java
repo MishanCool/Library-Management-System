@@ -219,7 +219,7 @@ public class Home extends JFrame implements ActionListener {
             
             }else if(msg.equals("Book Details")){
                 setVisible(false);
-//		new BookDetails().setVisible(true);
+		new BookDetails().setVisible(true);
             }else if(msg.equals("Student Details")){
                 setVisible(false);
                 new StudentDetails().setVisible(true);
@@ -249,7 +249,7 @@ public class Home extends JFrame implements ActionListener {
             }
             if(ae.getSource() == b6){
                 this.setVisible(false);
-//                new aboutUs().setVisible(true);
+                new aboutUs().setVisible(true);
             
             }
             
